@@ -1,0 +1,259 @@
+/* Importe de fontes */
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Configuração geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Declaração de fontes e paleta de cores */
+:root {
+    --fontTitulos: 'REM', sans-serif;
+    --fontParagrafos:'Oswald', sans-serif;
+    --corRosa:#f26dab;
+    --corRoxo:#6d3a7a;
+    --corAmarelo:#d9bf73;
+    --corAzul:#4371e6;
+    --corAzulescuro:#0d1a26;
+}
+
+body {
+    background-image: url(../imagens/jason.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+}
+
+/* logo */
+header #container-logo {
+    position: relative;
+    left: 25px;
+}
+
+header #container-logo img {
+    width: 120px;
+    height: 60px;
+}
+
+/* Menu de navegação */
+header #container-navegation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+header #container-navegation a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--fontParagrafos);
+    font-size: 18px;
+    transition: ease-in-out .8s;
+}
+
+header #container-navegation a:hover {
+    padding: 10px;
+    background-color: var(--corAzulescuro);
+    border-radius: 20px;
+    transition: .8s;
+}
+
+/* Menu de icones de navegação */
+
+header #navegation-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+header #navegation-login ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 15px;
+}
+header #navegation-login ul li {
+    list-style: none;
+}
+
+header #navegation-login li a img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Conteudo Inicial */
+/* Container do conteudo */
+#container-movie {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-left: 35px;
+    width: 800px;
+    height: 405px;
+}
+
+/* Container imagem Friday the 13 */
+#box-logo {
+    margin-bottom: 20px;
+}
+
+#box-logo img {
+    width: 620px;
+    height: 130px;
+}
+
+/* Container descrição */
+#box-descriptionmovie p {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-family: var(--fontParagrafos);
+    letter-spacing: 1px;
+}
+
+/* container do genero do filme */
+#box-descriptionmovie #box-category {
+    margin: 20px 0;
+    letter-spacing: 4px;
+    font-size: 18px;
+    font-family: var(--fontParagrafos);
+}
+/* Container do botões */
+#box-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+/* Container das imagens dos botões */
+#box-button img {
+    width: 50px;
+    height: 50px;
+}
+
+/* container dos botões trailer, assistir mais tarde e mais info */
+#box-button .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: var(--corAzulescuro);
+    border-radius: 40px;
+    width: 220px;
+    padding: 5px;
+}
+
+#box-button .buttons a {
+   color: white;
+   margin-left: 5px;
+   text-transform: uppercase;
+   font-size: 18px;
+   font-family: var(--fontParagrafos);
+   text-decoration: none;
+   padding-left: 5px;
+   transition: .5s;
+}
+
+#box-button .buttons a:hover {
+    color: #4371e6;
+    transition: .5s;
+}
+
+/* Container do botão do trailer */
+#box-button #box-trailer {
+    width: 150px;
+}
+
+/* box de idade do filme */
+#box-idade {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:var(--corAzulescuro);
+    border-radius: 40px;
+    width: 120px;
+    margin-left: auto;
+    height: 60px;
+}
+
+#box-idade img {
+    width: 50px;
+    height: 50px;
+    
+}
+
+/* Sessão de filmes populares */
+#section-popularsmovies {
+    margin-top: 20px;
+}
+
+.box-populars {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 300px;
+}
+
+/* titulo da sessão */
+#section-popularsmovies h1 {
+    position: relative;
+    left: 62px;
+    color: white;
+}
+
+/* configuração de container dos filmes */
+.box-populars #box-moviepopulars img {
+    width: 200px;
+    height: 280px;
+    border-radius: 8px;
+    transition: .8s;
+}
+
+.box-populars #box-moviepopulars img:hover {
+    transform: translateY(-5%);
+    transition: .8s;
+}
+
+/* sessão de filmes */
+#box-movie {
+    margin-top: 20px;
+}
+
+#box-movie02 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 300px;
+}
+
+#box-movie02 img {
+    width: 200px;
+    height: 280px;
+    border-radius: 8px;
+    transition: .8s;
+}
