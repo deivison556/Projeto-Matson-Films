@@ -206,54 +206,112 @@ header #navegation-login li a img {
 }
 
 /* Sessão de filmes populares */
-#section-popularsmovies {
+#container-populars {
+    width: 100%;
+    height: 400px;
     margin-top: 20px;
 }
 
-.box-populars {
+#title-populars {
+    position: relative;
+    left: 40px;
+    color: white;
+    margin-bottom: 10px;
+    font-family: var(--fontTitulos);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#container-populars #box-populars {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 300px;
-}
+    justify-content: space-around;
 
-/* titulo da sessão */
-#section-popularsmovies h1 {
-    position: relative;
-    left: 62px;
-    color: white;
 }
-
-/* configuração de container dos filmes */
-.box-populars #box-moviepopulars img {
+#box-populars img {
     width: 200px;
     height: 280px;
     border-radius: 8px;
-    transition: .8s;
+    transition: 1.2s;
 }
 
-.box-populars #box-moviepopulars img:hover {
+#box-populars img:hover {
     transform: translateY(-5%);
+    border: 2px solid white;
     transition: .8s;
 }
 
 /* sessão de filmes */
-#box-movie {
-    margin-top: 20px;
-}
-
-#box-movie02 {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+#container-moviewatch {
     width: 100%;
-    height: 300px;
+    height: 400px;
+    background-color: var(--corAzul);
+    margin-top: -35px;
 }
 
-#box-movie02 img {
+#title-movie {
+    position: relative;
+    left: 40px;
+    color: white;
+    padding-top: 20px;
+    font-family: var(--fontTitulos);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#container-moviewatch #box-populars2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#box-populars2 img {
     width: 200px;
     height: 280px;
     border-radius: 8px;
+    transition: 1.2s;
+}
+
+#box-populars2 img:hover {
+    transform: translateY(-5%);
+    border: 2px solid black;
+    transition: .8s;
+}
+
+/* sessão de séries */
+#container-series {
+    width: 100%;
+    height: 400;
+    background-color: black;
+}
+
+#title-series {
+    position: relative;
+    left: 40px;
+    color: white;
+    padding-top: 20px;
+    font-family: var(--fontTitulos);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#container-series #box-series {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#container-series #box-series img {
+    width: 200px;
+    height: 280px;
+    border-radius: 8px;
+    transition: 1.2s;
+}
+
+#box-series img:hover {
+    transform: translateY(-5%);
+    border: 2px solid white;
     transition: .8s;
 }
