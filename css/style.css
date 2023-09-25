@@ -317,7 +317,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* Sessão de filmes poupulares */
+/* Sessão de filmes populares */
 #box-populars {
     margin-top: 120px;
 }
@@ -357,83 +357,79 @@ body {
 }
 }
 
-
-
-
-
-
 /* Telas de 1440 */
 @media screen and (max-width:1440px) {
 /* Cabeçalho e menu de navegação */
-    #container-nav a {
-        font-size: 16px;
-    }
+#container-nav a {
+    font-size: 16px;
+}
 
 /* Conteúdo main - principal */
 #box-friday {
-    margin-top: 2vh;
-    width: 700px;
+    margin-top: 0vh;
+    width: 600px;
     height: 300px;
 }
 
 /* logo do conteúdo principal*/
     #box-friday #logo-friday {
-    width: 500px;
+    width: 480px;
     height: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
-/* Sessão de filmes poupulares */
+/* buttões do filme */
+#box-trailer img {
+    width: 30px;
+    height: 30px;
+}
+
+#box-trailer a {
+    font-size: 16px;
+}
+
+#box-trailer .box-button {
+    padding: 5px 7px 5px 0px;
+    width: 180px;
+}
+
+#box-trailer #box-buttontrailer {
+    width: 120px;
+}
+
+/* Sessão de filmes populares */
 #box-populars {
-    margin-top: 80px;
-}
-
-#box-populars h1 {
-    font-size: 20px;
+    margin-top: 120px;
 }
 
 #box-populars img {
-    width: 160px;
-    height: 225px;
-
+    width: 170px;
+    height: 200px;
 }
 
 /* Sessão de séries */
 .box-series {
-    height: 300px;
-}
-
-.box-series h1 {
-    font-size: 20px;
+    height: 270px;
 }
 
 #box-series01 {
-    height: 300px;
-    margin-top: -71px;
+    height: 270px;
+    margin-top: -10px;
 }
 
 .box-series img {
-    width: 160px;
-    height: 225px;
-
+    width: 170px;
+    height: 200px;
 }
 
 /* Sessão animes */
 #box-animes {
-    height: 300px;
-}
-
-#box-animes h1 {
-    font-size: 20px;
+    height: 270px;
 }
 
 #box-animes img {
-    width: 160px;
-    height: 225px;
-}
-
-#box-footer {
-    margin-top: 59%;
+    width: 170px;
+    height: 200px;
 }
 }
 
@@ -443,7 +439,6 @@ body {
 #box-header #box-logo {
     width: 80px;
     height: 50px;
-
 }
 
 /* Cabeçalho e menu de navegação */
@@ -482,11 +477,7 @@ body {
 }
 
 #box-trailer .box-button {
-    width: 180px;
-}
-
-#box-trailer #box-buttontrailer {
-    width: 120px;
+    padding: 5px 10px 5px -5px;
 }
 
 /* Sessão de filmes populares */
@@ -504,13 +495,11 @@ body {
 } 
 
 #box-populars img {
-    position: relative;
-    top: 10px;
-    width: 230px;
+    width: 200px;
     height: 250px;
 }
 #box-populars h1 {
-    font-size: 20px;}
+    font-size: 22px;}
 
 /* Sessão de séries */
 .box-series {
@@ -531,14 +520,12 @@ body {
 }
 
 .box-popularseries img {
-    position: relative;
-    top: 10px;
-    width: 230px;
+    width: 200px;
     height: 250px;
 }
 
 .box-series h1 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 /* Sessão animes */
@@ -554,19 +541,12 @@ body {
     gap: 10px;
 }
 #box-animes h1 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #box-animes img {
-    position: relative;
-    top: 10px;
-    width: 230px;
+    width: 200px;
     height: 250px;
-}
-
-
-#box-footer {
-margin-top: 0%;
 }
 }
 
