@@ -326,7 +326,6 @@ body {
 #box-populars img {
     width: 200px;
     height: 270px;
-
 }
 
 /* Sessão de séries */
@@ -343,7 +342,6 @@ body {
 .box-series img {
     width: 200px;
     height: 270px;
-
 }
 
 /* Sessão animes */
@@ -431,6 +429,77 @@ body {
 #box-animes img {
     width: 170px;
     height: 200px;
+}
+}
+
+/* Telas 1200px */
+@media screen and (max-width:1280px) {
+/* Conteúdo main - principal */
+#box-friday {
+    margin-top: 30px;
+    width: 650px;
+    height: 400px;
+}
+
+/* logo do conteúdo principal*/
+    #box-friday #logo-friday {
+    width: 500px;
+    height: 100px;
+
+}
+
+/* buttões do filme */
+#box-trailer img {
+    width: 30px;
+    height: 30px;
+}
+
+#box-trailer a {
+    font-size: 16px;
+}
+
+#box-trailer .box-button {
+    padding: 5px 7px 5px 0px;
+    width: 180px;
+}
+
+#box-trailer #box-buttontrailer {
+    width: 120px;
+}
+
+/* Sessão de filmes populares */
+#box-populars {
+    margin-top: -15px;
+}
+
+#box-populars img {
+    width: 152px;
+    height: 210px;
+}
+
+/* Sessão de séries */
+.box-series {
+    height: 300px;
+}
+
+#box-series01 {
+    height: 300px;
+    margin-top: -10px;
+}
+
+.box-series img {
+    width: 152px;
+    height: 210px;
+}
+
+/* Sessão animes */
+#box-animes {
+    height: 300px;
+}
+
+#box-animes img {
+    width: 152px;
+    height: 210px;
 }
 }
 
@@ -635,8 +704,7 @@ body {
 /* Sessão de filmes populares */
 #box-populars {
     margin-top: 10px;
-    height: 750px;
-    
+    height: 750px; 
 }
 
 #box-populars h1 {
@@ -683,6 +751,7 @@ body {
 }
 }
 
+/* Telas 500px */
 @media  screen and (max-width:500px) {
 /* logo do conteúdo principal*/
 #box-friday #logo-friday {
@@ -720,6 +789,7 @@ body {
 /* Sessão de filmes populares */
 #box-populars {
     margin-top: 10px;
+    height: 500px;
 }
 
 #box-populars img {
@@ -740,4 +810,76 @@ body {
 }
 }
 
+/* Telas de 430px */
+@media screen and (max-width:428px) {
+/* logo do conteúdo principal*/
+#box-friday #logo-friday {
+    width: 320px;
+    height: 100px;
+}
+
+/* Conteúdo main - principal */
+#box-friday {
+    width: 400px;
+}
+/* descrição do filme */
+#box-friday #box-description {
+    font-size: 18px;
+}
+
+/* buttões do filme */
+#box-trailer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#box-trailer #box-buttontrailer {
+    width: 110px;
+}
+
+#box-trailer #button-more {
+    position: relative;
+    left: -10px;
+}
+
+#box-trailer a {
+    font-size: 16px;
+}
+
+/* Sessão de populares */
+
+#box-populars {
+    height: 500px;
+}
+
+#box-populars img {
+    width: 89px;
+    height: 180px;
+}
+
+/* Sessão de séries */
+.box-series {
+    height: 500px;
+}
+
+#box-series01 {
+    height: 500px;
+    margin-top: 310px;
+}
+.box-popularseries img {
+    width: 89px;
+    height: 180px;
+}
+
+/* Sessão animes */
+#box-animes {
+    height: 500px;
+}
+#box-animes img {
+    width: 89px;
+    height: 180px;
+}
+}
 
