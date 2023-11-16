@@ -704,7 +704,7 @@ body {
 /* Sessão de filmes populares */
 #box-populars {
     margin-top: 10px;
-    height: 750px; 
+    height: 550px; 
 }
 
 #box-populars h1 {
@@ -712,7 +712,7 @@ body {
 }
 
 #box-populars img {
-    width: 137px;
+    width: 132px;
     height: 210px;
 }
 
@@ -723,7 +723,7 @@ body {
 
 #box-series01 {
     height: 550px;
-    margin-top: 400px;
+    margin-top: 320px;
 }
 
 .box-series h1 {
@@ -731,7 +731,7 @@ body {
 }
 
 .box-popularseries img {
-    width: 137px;
+    width: 132px;
     height: 210px;
 }
 
@@ -746,7 +746,7 @@ body {
 }
 
 #box-animes img {
-    width: 137px;
+    width: 132px;
     height: 210px;
 }
 }
@@ -794,23 +794,27 @@ body {
 
 #box-populars img {
     width: 112px;
-    height: 210px;
+    height: 200px;
 }
 
 /* Sessão de séries */
 .box-popularseries img {
     width: 112px;
-    height: 210px;
+    height: 200px;
+}
+
+#box-series01 {
+    margin-top: 290px;
 }
 
 /* Sessão animes */
 #box-animes img {
     width: 112px;
-    height: 210px;
+    height: 200px;
 }
 }
 
-/* Telas de 430px */
+/* Telas de 428px */
 @media screen and (max-width:428px) {
 /* logo do conteúdo principal*/
 #box-friday #logo-friday {
